@@ -2,10 +2,50 @@ body{
   margin: 0;
   padding: 0;
 }
+img{
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
 header{
   background: url("../images/banner.jpg") center center no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.container{
+  width: 1280px;
+  margin: 0 auto; 
 }
 
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.brand{
+  width: 20%;
+}
+.menu ul{
+  list-style: none;
+  width: 100%;
+  display: flex;
+}
+.menu li{
+}
+.menu li a{
+  padding: 0 25px;
+  color: #fff;
+}
+.menu li:hover a{
+  color: #f00;
+}
+.headline{
+}
